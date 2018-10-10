@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block style %}
+    {% endblock %}
+</head>
+<nav>
+    {% block nav %}
+    {% endblock %}
+</nav>
+<body>
+<header>
+    <h1>{% block header %}{% endblock %}</h1>
+</header>
+<div class="body">
+    {% block body %}
+    {% endblock %}
+</div>
+{% block javascript %}{% endblock %}
+</body>
+</html>
